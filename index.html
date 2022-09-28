@@ -5,43 +5,79 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CV Peter Jahn</title>
-    <meta name="description" content="This is the CV of Peter Jahn" />
+    <meta name="description" content="The CV of Peter Jahn!" />
     <meta name="author" content="Peter Jahn" />
+    <linkrel="stylesheet" href="https://unpkg.com/normalize.css@8.0.1/normalize.css" />
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,200&display=swap" rel="stylesheet">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@1,700&family=Qwitcher+Grypen:wght@700&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
     <header class="header">
-        <h1>Peter Jahn</h1>
-        <p>Photograher - Designer - Trainee Web Develober</p>
-        <nav>
-            <a href="#profile">Profile</a>
-            <a href="#experience">Experience</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact</a>
+        <div class="heading-group">
+            <h1 class="main-heading">Peter Jahn</h1>
+            <p class="profession">Photograher - Designer - Trainee Web Develober
+            </p>
+        </div>
+        <nav class="navigation">
+            <a class="nav-link" href="#profile">Profile</a>
+            <a class="nav-link" href="#experience">Experience</a>
+            <a class="nav-link" href="#skills">Skills</a>
+            <a class="nav-link" href="#contact">Contact</a>
         </nav>
+        <aside class="hire-me">Hire Me</aside>
     </header>
     <main class="main">
-        <main>
-            <article id="profile">
-                <h2>Profile</h2>
-                <p>
-                    Hello an thanks to visit my CV!
-                </p>
-                <hr>
-            </article>
-            <article id="experience">
-                <h2>Experience</h2>
+        <article class="main-article" id="profile">
+            <h2 class="main-article-heading">Profile</h2>
+            <p class="main-article-content">
+                Hello an thanks to visit my CV!
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                autem necessitatibus. Modi magnam consectetur reiciendis a id
+                aperiam cupiditate totam eveniet excepturi! Expedita deserunt
+                debitis inventore perferendis totam excepturi cupiditate!
+            </p>
+        </article>
+        <article class="main-article" id="experience">
+            <h2 class="main-article-heading">Experience</h2>
+            <div class="main-article-content">
                 <section>
-                    <header>
-                        <h3>Coding Bootcamps EU - Trainee</h3>
-                        <p>July 2022 - Present</p>
+                    <header class="experience-header">
+                        <h3 class="experience-heading">
+                            Coding Bootcamps EU - Trainee
+                        </h3>
+                        <p class="experience-subheading">July 2022 - Present</p>
                     </header>
                     <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
+                        autem necessitatibus. Modi magnam consectetur reiciendis a id
+                        aperiam cupiditate totam eveniet excepturi! Expedita deserunt
+                        debitis inventore perferendis totam excepturi cupiditate!Lorem ipsum dolor sit amet consectetur
+                        adipisicing elit. Possimus,
+                        autem necessitatibus. Modi magnam consectetur reiciendis a id
+                        aperiam cupiditate totam eveniet excepturi! Expedita deserunt
+                        debitis inventore perferendis totam excepturi cupiditate!
+                    </p>
+                </section>
+                <section>
+                    <header class="experience-header">
+                        <h3 class="experience-heading">
+                            MCT Dortmund
+                        </h3>
+                        <p class="experience-subheading">April 2017 - September 2019</p>
+                    </header>
+                    <p>
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam obcaecati corrupti impedit perspiciatis quibusdam velit
+                        a, error delectus officia vel incidunt, pariatur necessitatibus!
+                        Laborum itaque officiis ab! Ullam, asperiores possimus.
+
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus,
                         autem necessitatibus. Modi magnam consectetur reiciendis a id
                         aperiam cupiditate totam eveniet excepturi! Expedita deserunt
@@ -49,33 +85,24 @@
                     </p>
                 </section>
                 <section>
-                    <header>
-                        <h3>MCT Dortmund</h3>
-                        <p>April 2017 - September 2019</p>
+                    <header class="experience-header">
+                        <h3 class="experience-heading">
+                            Freelancer as Designer
+                        </h3>
+                        <p class="experience-subheading">April 2017 - September 2019</p>
                     </header>
                     <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                        obcaecati corrupti impedit perspiciatis quibusdam velit a, error
-                        delectus officia vel incidunt, pariatur necessitatibus! Laborum
-                        itaque officiis ab! Ullam, asperiores possimus.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Laboriosam obcaecati corrupti impedit perspiciatis quibusdam velit
+                        a, error delectus officia vel incidunt, pariatur necessitatibus!
+                        Laborum itaque officiis ab! Ullam, asperiores possimus.
                     </p>
                 </section>
-                <section>
-                    <header>
-                        <h3>Freelancer</h3>
-                        <p>May 2016 - April 2017</p>
-                    </header>
-                    <p>
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
-                        obcaecati corrupti impedit perspiciatis quibusdam velit a, error
-                        delectus officia vel incidunt, pariatur necessitatibus! Laborum
-                        itaque officiis ab! Ullam, asperiores possimus.
-                    </p>
-                </section>
-                <hr>
-            </article>
-            <article id="skills">
-                <h2>Skills</h2>
+            </div>
+        </article>
+        <article class="main-article" id="skills">
+            <h2 class="main-article-heading">Skills</h2>
+            <div class="main-article-content">
                 <section>
                     <h3>Soft Skills</h3>
                     <ul>
@@ -92,22 +119,28 @@
                         <li>and so on</li>
                     </ul>
                 </section>
-            </article>
-            <hr>
-            <article id="contact">
-                <h2>Contact</h2>
-                <ol>
-                    <li>
-                        Twitter:
-                        <a href="https://twitter.com/PeterJahn71">@PeterJahn71</a>
-                    </li>
-                    <li>
-                        E-Mail:
-                        <a href="mailto:jahnp0815@gmail.com">jahnp0815@gmail.com</a>
-                    </li>
-                </ol>
-            </article>
-        </main>
+            </div>
+        </article>
+        <article class="main-article" id="contact">
+            <h2 class="main-article-heading">Contact</h2>
+            <ol class="main-article-content">
+                <li>
+                    Twitter:
+                    <a href="https://twitter.com/PeterJahn71">@PeterJahn71</a>
+                </li>
+                <li>
+                    E-Mail:
+                    <a href="mailto:jahnp0815@gmail.com">jahnp0815@gmail.com</a>
+                </li>
+            </ol>
+        </article>
+    </main>
+    <footer class="footer">
+        <p class="footer-text">
+            You like my CV?
+            <a class="footer-link" href="mailto:jahnp0815@gmail.com">Contact me</a>
+        </p>
+    </footer>
 </body>
 
 </html>
